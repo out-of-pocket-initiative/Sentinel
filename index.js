@@ -2,7 +2,7 @@ const puppeteer = require("puppeteer");
 const fs = require("fs").promises;
 
 const FACEBOOK_URL = "https://www.facebook.com";
-const GC_URL = process.env.GC_URL;
+const GC_URL = `https://www.facebook.com/messages/t/${process.env.GC_URL}`;
 
 const getDefaultBrowser = async (headless) => {
   const browser = await puppeteer.launch({
