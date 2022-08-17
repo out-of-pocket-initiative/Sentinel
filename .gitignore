@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Environment Variables
+.env
+
+# Cached cookies
+_cookies.json
